@@ -20,7 +20,7 @@ tasksList.addEventListener('click', (e) => {
     e.target.parentElement.remove();
   }
   // makes sure that the action, delete, of the function matches the data-action of the button and then deletes the parent element.
-  // e.target means the target of the event which is click  
+  // e.target means the target of the event which is click, so if the target of the click's dataset = delete, delete the parent of the target. The target of the click is the button 
 });
 
 
